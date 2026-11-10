@@ -76,6 +76,32 @@
     </div>
   </main>
 
+  <!-- MODALE -->
+  <div class="modal fade" id="scheda-prodotto" tabindex="-1">
+
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-titolo">Scheda prodotto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <img src="https://placehold.co/600x300" class="img-fluid mb-3" id="modal-immagine" alt="">
+          <p id="modal-descrizione"></p>
+          <p class="fw-bold fs-4 m-0" id="modal-prezzo"></p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+          <button type="button" class="btn btn-success">Aggiungi al carrello</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <footer class="bg-dark text-white py-4 mt-5">
     <div class="container text-center">
       <p class="m-0">© 2026 EpiShop — tutti i diritti riservati</p>
@@ -106,6 +132,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
